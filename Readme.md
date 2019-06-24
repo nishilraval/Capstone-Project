@@ -114,7 +114,7 @@ Random sampling of minority and majority values while grouping on the Label colu
 **Normalized Value Count** | Label 
 --- | --- | 
 99% | False 
->1% | True
+Less than 1% | True
 
 N_samples value was significantly lowered for small dataset notebook in order to be tested and run on laptops. 
 The upsampled minority class were combined with the downsampled majority class.
