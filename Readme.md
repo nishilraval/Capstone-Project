@@ -87,7 +87,8 @@ TotBytes |Total amount of bytes sent| Integer
 SrcBytes | Source bytes | Integer
 Label | Whether or not botnet | String  
   
-![](https://upload.wikimedia.org/wikipedia/commons/8/86/Botnet_infection_of_Wifatch_from_loot_myself_twitter_post.png)
+![](https://upload.wikimedia.org/wikipedia/commons/8/86/Botnet_infection_of_Wifatch_from_loot_myself_twitter_post.png)  
+  
 ``Worldwide Wifatch Botnet Infection``
    
 ## Data Analysis and Preprocessing
@@ -113,7 +114,7 @@ Random sampling of minority and majority values while grouping on the Label colu
 **Normalized Value Count** | Label 
 --- | --- | 
 99% | False 
->1%| True
+>1% | True
 
 N_samples value was significantly lowered for small dataset notebook in order to be tested and run on laptops. 
 The upsampled minority class were combined with the downsampled majority class.
